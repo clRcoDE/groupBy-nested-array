@@ -94,4 +94,72 @@ console.log(mykeyArray)
 
 
 
-// expected output: "123"
+/// unused part ///
+
+// // expected output: "123"
+
+
+// 	// var cars = [
+// 			// 		{ title: 'audi', data: { givenName: 'audi karim' } },
+// 			// 		{ title: 'audi', data: { givenName: 'audi qasem' } },
+// 			// 		{ title: 'ford', data: { givenName: 'fordino' } },
+// 			// 		{ title: 'ford', data: { givenName: 'fordini' } },
+// 			// 		{ title: 'kia', data: { givenName: 'kiomarth' } }
+// 			// 	],
+// 			// 	result = cars.reduce(function(result, item) {
+// 			// 		result[item.title] = result[item.title] || []
+// 			// 		result[item.title].push(item)
+// 			// 		return result
+// 			// 	},{})
+
+// 			// console.warn(result)
+
+// 			var groupBy = function(xs, key) {
+// 				return xs.reduce(function(rv, x) {
+// 					;(rv[x[key]] = rv[x[key]] || []).push(x)
+// 					return rv
+// 				}, {})
+// 			}
+
+			
+
+// 			let bbb = groupBy(['one', 'two', 'three','four'], 'length')
+
+// console.warn(bbb)
+// 			data = [
+// 				{ id: 1, name: 'BMW' },
+// 				{ id: 2, name: 'AN' },
+// 				{ id: 3, name: 'BMW' },
+// 				{ id: 1, name: 'NNN' }
+// 			]
+// 			key = 'id' //try by id or name
+// 			let aaa = data.reduce((previous, current) => {
+// 				previous[current[key]] && previous[current[key]].length != 0
+// 					? previous[current[key]].push(current)
+// 					: (previous[current[key]] = new Array(current))
+// 				return previous
+// 			}, {})
+
+// 			console.warn(aaa)
+
+
+
+// 			let finalList = searchResult.reduce((total, current, index) => {
+// 				let title = current.givenName.trim().charAt(0)
+// 				return (total = [...total, { title }])
+// 				// if (!total.hasOwnProperty(title)) {
+// 				// 	total[title] = []
+// 				// }
+// 				// total[title].push(current.givenName)
+// 				// return (total = [
+// 				// 	...total,
+// 				// 	{
+// 				// 		title: current.givenName.trim().charAt(0),
+// 				// 		data: [current]
+// 				// 	}
+// 				// ])
+// 			}, [])
+
+
+
+
